@@ -3,242 +3,306 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Idea Resto</title>
+    <title>IdeaSAA Cafe | Banyuwangi</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
-<body>
-    <nav>
-        <div class="judul">
-            <h1>Idea Resto</h1>
+<body style="font-family: 'Poppins', sans-serif;">
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm p-3" style="background-color: rgba(240, 101, 8, 0.8);">
+        <div class="container">
+            <a class="navbar-brand fs-3" style="font-weight: bold;" href="#">IdeaSAA Cafe</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="#aboutus">About Us</a>
+                <a class="nav-link" href="#foods">Foods</a>
+                <a class="nav-link" href="#drinks">Drinks</a>
+                <a class="nav-link" href="#contact">Contact</a>
+                </div>
+            </div>
         </div>
-        <ul>
-            <li>
-                <a href="#aboutus">About Us</a>
-            </li>
-            <li>
-                <a href="#Foods">Foods</a>
-            </li>
-            <li>
-                <a href="#Drinks">Drinks</a>
-            </li>
-            <li>
-                <a href="#Contact">Contact</a>
-            </li>
-        </ul>
     </nav>
-    <section class="profil" id="aboutus">
-        <div class="judul-profil">
-            <h1>Selamat Datang di Idea Resto Banyuwangi</h1>
-            <div class="desk">
-                <h2>About Us</h2>
-                <p>Idea Resto Banyuwangi adalah tempat makan yang menyajikan aneka hidangan seafood bakar yang lezat dan menggugah selera. Resto ini didirikan pada tahun [tahun berdiri, Anda bisa tambahkan detail spesifiknya di sini jika diinginkan], dengan tujuan menghadirkan pengalaman kuliner khas Banyuwangi yang autentik di tepi pantai yang indah. Sejak awal, Idea Resto telah menjadi favorit bagi pecinta seafood karena kelezatan hidangannya serta nuansa pantai yang menenangkan.
-    
-                Berlokasi di tepi pantai, resto ini menawarkan pengalaman kuliner yang tak terlupakan dengan pemandangan laut yang indah, semilir angin pantai, dan suasana santai yang bikin betah. Cocok untuk makan bersama keluarga, teman, maupun pasangan sambil menikmati sunset yang memesona.
-                    
-                Dari ikan bakar, cumi, udang, hingga kerang, semuanya dimasak dengan bumbu khas yang menggoda. Idea Resto bukan hanya tempat makan—tapi juga tempat untuk menikmati momen istimewa dengan nuansa alam yang menenangkan.</p>
+
+    <section class="container">
+        <div class="container-landin d-flex flex-column flex-lg-row mt-5 gap-5">
+            <div class="judul d-flex align-items-center">
+                <h1 style="font-weight: bold;">Selamat Datang di IdeaSAA Cafe Banyuwangi</h1>
+            </div>
+            <div class="aboutus" style="text-align: justify;">
+                <h2 class="pb-3" style="border-bottom: 1px solid black; font-weight: bold;">About Us</h2>
+                <p>Idea Resto Banyuwangi adalah tempat makan yang menyajikan aneka hidangan seafood bakar yang lezat dan menggugah selera. Resto ini didirikan pada tahun [tahun berdiri, Anda bisa tambahkan detail spesifiknya di sini jika diinginkan], dengan tujuan menghadirkan pengalaman kuliner khas Banyuwangi yang autentik di tepi pantai yang indah. Sejak awal, Idea Resto telah menjadi favorit bagi pecinta seafood karena kelezatan hidangannya serta nuansa pantai yang menenangkan. Berlokasi di tepi pantai, resto ini menawarkan pengalaman kuliner yang tak terlupakan dengan pemandangan laut yang indah, semilir angin pantai, dan suasana santai yang bikin betah. Cocok untuk makan bersama keluarga, teman, maupun pasangan sambil menikmati sunset yang memesona. Dari ikan bakar, cumi, udang, hingga kerang, semuanya dimasak dengan bumbu khas yang menggoda. Idea Resto bukan hanya tempat makan—tapi juga tempat untuk menikmati momen istimewa dengan nuansa alam yang menenangkan.</p>
             </div>
         </div>
         <div class="quotes">
-            <h3>"Idea Resto Banyuwangi—seafood lezat, suasana pantai, dan sunset yang memukau. Temukan kelezatan alam di setiap gigitan!"</h3>
+            <h4 class="text-center m-5" style="font-weight: bold; color: #BE3D2A;">"Idea Resto Banyuwangi—seafood lezat, suasana pantai, dan sunset yang memukau. Temukan kelezatan alam di setiap gigitan!"</h3>
         </div>
     </section>
-    
-    <section class="menu" id="Foods">
-        <div class="judul-menu">
-            <h2>Menu : <span style="font-family: 'Bradley Hand', 'Segoe Print', 'Marker Felt', cursive;">Foods</span></h2>
-        </div>
+
+    <section class="mt-5" style="background-color: FFF085;" id="foods">
         <div class="container">
-            <div class="card">
-                <img src="img/seafood-1.jfif" alt="makanan">
-                <div class="desk-menu">
-                    <h3>Seafood Gurita</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sunt sequi veniam.</p>
-                    <p class="harga">Rp. 12.000</p>
-                    <a href="#" onclick="openPopup(event)">Buy</a>
-                </div>   
-            </div>
-            <div id="popupModal">
-                <div class="modal-content">
-                    <h3>Terima kasih!</h3>
-                    <p>Pesanan Anda telah diterima.</p>
-                    <button onclick="closePopup()">Kembali</button>
+            <h2>Menu : <span>Foods</span></h2>
+            <div class="container-card d-flex flex-wrap gap-3 justify-content-center align-items-center">
+                <div class="card mb-3" style="max-width: 340px;">
+                    <div class="row g-0">
+                        <div class="col-md-4 d-flex justify-content-center align-items-center">
+                        <img src="img/seafood-1.jfif" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" onclick="openPopup(event)">Buy</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-
-            <div class="card">
-                <img src="img/seafood-2.jfif" alt="makanan">
-                <div class="desk-menu">
-                    <h3>Seafood Kakap</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sunt sequi veniam.</p>
-                    <p class="harga">Rp. 12.000</p>
-                    <a href="#" onclick="openPopup(event)">Buy</a>
+                <div class="card mb-3" style="max-width: 340px;">
+                    <div class="row g-0">
+                        <div class="col-md-4 d-flex justify-content-center align-items-center">
+                        <img src="img/seafood-1.jfif" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" onclick="openPopup(event)">Buy</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-
-            <div class="card">
-                <img src="img/seafood-3.jfif" alt="makanan">
-                <div class="desk-menu">
-                    <h3>Seafood Gurami</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sunt sequi veniam.</p>
-                    <p class="harga">Rp. 12.000</p>
-                    <a href="#" onclick="openPopup(event)">Buy</a>
+                <div class="card mb-3" style="max-width: 340px;">
+                    <div class="row g-0">
+                        <div class="col-md-4 d-flex justify-content-center align-items-center">
+                        <img src="img/seafood-1.jfif" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" onclick="openPopup(event)">Buy</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-
-            <div class="card">
-                <img src="img/seafood-4.jfif" alt="makanan">
-                <div class="desk-menu">
-                    <h3>Seafood Belut</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sunt sequi veniam.</p>
-                    <p class="harga">Rp. 12.000</p>
-                    <a href="#" onclick="openPopup(event)">Buy</a>
+                <div class="card mb-3" style="max-width: 340px;">
+                    <div class="row g-0">
+                        <div class="col-md-4 d-flex justify-content-center align-items-center">
+                        <img src="img/seafood-1.jfif" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" onclick="openPopup(event)">Buy</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-
-            <div class="card">
-                <img src="img/seafood-5.jfif" alt="makanan">
-                <div class="desk-menu">
-                    <h3>Seafood Ubur-ubur</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sunt sequi veniam.</p>
-                    <p class="harga">Rp. 12.000</p>
-                    <a href="#" onclick="openPopup(event)">Buy</a>
+                <div class="card mb-3" style="max-width: 340px;">
+                    <div class="row g-0">
+                        <div class="col-md-4 d-flex justify-content-center align-items-center">
+                        <img src="img/seafood-1.jfif" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" onclick="openPopup(event)">Buy</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-
-            <div class="card">
-                <img src="img/seafood-6.jfif" alt="makanan">
-                <div class="desk-menu">
-                    <h3>Seafood Lintah Hijau</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sunt sequi veniam.</p>
-                    <p class="harga">Rp. 12.000</p>
-                    <a href="#" onclick="openPopup(event)">Buy</a>
+                <div class="card mb-3" style="max-width: 340px;">
+                    <div class="row g-0">
+                        <div class="col-md-4 d-flex justify-content-center align-items-center">
+                        <img src="img/seafood-1.jfif" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" onclick="openPopup(event)">Buy</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    
-    <section class="menu" id="Drinks">
-        <div class="judul-menu">
-            <h2>Menu : <span style="font-family: 'Bradley Hand', 'Segoe Print', 'Marker Felt', cursive;">Drinks</span></h2>
-        </div>
+
+    <section class="mt-5" style="background-color: FFF085;" id="drinks">
         <div class="container">
-            <div class="card">
-                <img src="img/drink-1.jfif" alt="minuman">
-                <div class="desk-menu">
-                    <h3>Ice Tea</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sunt sequi veniam.</p>
-                    <p class="harga">Rp. 12.000</p>
-                    <a href="#" onclick="openPopup(event)">Buy</a>
+            <h2>Menu : <span>Drinks</span></h2>
+            <div class="container-card d-flex flex-wrap gap-3 justify-content-center align-items-center">
+                <div class="card mb-3" style="max-width: 340px;">
+                    <div class="row g-0">
+                        <div class="col-md-4 d-flex justify-content-center align-items-center">
+                        <img src="img/seafood-1.jfif" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" onclick="openPopup(event)">Buy</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="img/drink-2.jfif" alt="minuman">
-                <div class="desk-menu">
-                    <h3>Ice Pop</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sunt sequi veniam.</p>
-                    <p class="harga">Rp. 12.000</p>
-                    <a href="#" onclick="openPopup(event)">Buy</a>
+                <div class="card mb-3" style="max-width: 340px;">
+                    <div class="row g-0">
+                        <div class="col-md-4 d-flex justify-content-center align-items-center">
+                        <img src="img/seafood-1.jfif" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" onclick="openPopup(event)">Buy</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="img/drink-3.jfif" alt="minuman">
-                <div class="desk-menu">
-                    <h3>Juice Ice</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sunt sequi veniam.</p>
-                    <p class="harga">Rp. 12.000</p>
-                    <a href="#" onclick="openPopup(event)">Buy</a>
+                <div class="card mb-3" style="max-width: 340px;">
+                    <div class="row g-0">
+                        <div class="col-md-4 d-flex justify-content-center align-items-center">
+                        <img src="img/seafood-1.jfif" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" onclick="openPopup(event)">Buy</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="img/drink-4.jfif" alt="minuman">
-                <div class="desk-menu">
-                    <h3>Bir Juice</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sunt sequi veniam.</p>
-                    <p class="harga">Rp. 12.000</p>
-                    <a href="#" onclick="openPopup(event)">Buy</a>
+                <div class="card mb-3" style="max-width: 340px;">
+                    <div class="row g-0">
+                        <div class="col-md-4 d-flex justify-content-center align-items-center">
+                        <img src="img/seafood-1.jfif" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" onclick="openPopup(event)">Buy</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="img/drink-5.jfif" alt="minuman">
-                <div class="desk-menu">
-                    <h3>Naga Juice</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sunt sequi veniam.</p>
-                    <p class="harga">Rp. 12.000</p>
-                    <a href="#" onclick="openPopup(event)">Buy</a>
+                <div class="card mb-3" style="max-width: 340px;">
+                    <div class="row g-0">
+                        <div class="col-md-4 d-flex justify-content-center align-items-center">
+                        <img src="img/seafood-1.jfif" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" onclick="openPopup(event)">Buy</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="img/drink-6.jfif" alt="minuman">
-                <div class="desk-menu">
-                    <h3>Haram Juice</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sunt sequi veniam.</p>
-                    <p class="harga">Rp. 12.000</p>
-                    <a href="#" onclick="openPopup(event)">Buy</a>
+                <div class="card mb-3" style="max-width: 340px;">
+                    <div class="row g-0">
+                        <div class="col-md-4 d-flex justify-content-center align-items-center">
+                        <img src="img/seafood-1.jfif" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" onclick="openPopup(event)">Buy</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="contact" id="Contact">
-        <div class="kontak">
-            <h3>Contact Us</h3>
-            <h1>Hubungi ka<span style="border-bottom: 1px solid white; padding-bottom: 5px ;">mi unt</span>uk melalui</h1>
-        </div>  
-        <div class="container-contact">
-            <div class="card-maps">
-                <div class="icon">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <div class="desk-maps">
-                        <h3>Alamat</h3>
-                        <p>Jl. Miftahul arifin gang Akbar, Dusun Krajan, Bangsring, Kec. Wongsorejo, Kabupaten Banyuwangi, Jawa Timur 68453</p>
-                    </div>
-                </div>
-                <div class="icon">
-                    <i class="fa-solid fa-envelope"></i>
-                    <div class="desk-maps">
-                        <h3>Email:</h3>
-                        <p>@dimasizzul85@gmail.com</p>
-                    </div>
-                </div>
-                <div class="icon">
-                    <i class="fa-solid fa-mobile-screen-button"></i>
-                    <div class="desk-maps">
-                        <h3>Telepon:</h3>
-                        <p>+62 8966 8029 658</p>
-                    </div>
-                </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25348.124319590133!2d114.41159094715486!3d-8.063417976498155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd152a07323ff97%3A0x417105e7a35d4d9c!2sWildan%20Homestay!5e0!3m2!1sid!2sid!4v1744701235309!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <section id="contact" class="mt-5 pb-4" style="background-color: #E78B48;">
+        <div class="container">
+            <div class="judul-contact text-center p-4">
+                <h2>Contact Us</h2>
+                <h4 style="font-size: 18px; color: white;">Hubungi kami untuk melalui</h4>
             </div>
-            <div class="card-contact">
-                <div class="bagian-atas">
-                    <div class="section-input">
-                        <label for="">Nama Anda:</label>
-                        <input type="text" placeholder="Nama Anda*">
+            <div class="container-contact d-flex flex-column flex-lg-row gap-3">
+                <div class="maps p-3" style="background-color: #FFA955; border-bottom: 2px solid white; border-top: 2px solid white;">
+                    <div class="fill-maps d-flex gap-3">
+                        <i class="fa-solid fa-location-dot d-flex justify-content-center align-items-center"></i>
+                        <div class="desk-maps pt-3">
+                            <h4 style="font-size: 15px; font-weight: bold;">Alamat</h4>
+                            <p style="font-size: 13px;">Jl. Miftahul arifin gang Akbar, Dusun Krajan, Bangsring, Kec. Wongsorejo, Kabupaten Banyuwangi, Jawa Timur 68453</p>
+                        </div>
                     </div>
-                    <div class="section-input">
-                        <label for="">Nomer Kontak Anda:</label>
-                        <input type="number" placeholder="Nomer Kontak Anda*">
+                    <div class="fill-maps d-flex gap-3">
+                        <i class="fa-solid fa-envelope d-flex justify-content-center align-items-center"></i>
+                        <div class="desk-maps">
+                            <h4 style="font-size: 15px; font-weight: bold;">Email:</h4>
+                            <p style="font-size: 13px;">@dimasizzul85@gmail.com</p>
+                        </div>
                     </div>
+                    <div class="fill-maps d-flex gap-3">
+                        <i class="fa-solid fa-phone d-flex justify-content-center align-items-center"></i>
+                        <div class="desk-maps">
+                            <h4 style="font-size: 15px; font-weight: bold;">Telepon:</h4>
+                            <p style="font-size: 13px;">+62 8966 8029 658.</p>
+                        </div>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25348.124319590133!2d114.41159094715486!3d-8.063417976498155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd152a07323ff97%3A0x417105e7a35d4d9c!2sWildan%20Homestay!5e0!3m2!1sid!2sid!4v1744701235309!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div class="bagian-bawah">
-                    <label for="">Email Anda:</label>
-                    <input type="text" placeholder="Email Anda*">
-                    <label for="">Kesan:</label>
-                    <input type="text" placeholder="Kesan*">
-                    <label for="">Pesan:</label>
-                    <input type="text" placeholder="Pesan*">
-                    <button>Kirim</button>
+
+                <div class="email p-3" style="background-color: #FFA955; border-bottom: 2px solid white; border-top: 2px solid white">
+                    <div class="form-contact d-flex flex-column gap-2">
+                        <div class="contact-nama-atas d-flex flex-column flex-md-row gap-1">
+                            <div class="form-nama d-flex flex-column gap-2">
+                                <label for="">Nama Anda:</label>
+                                <input class="p-2" type="text" placeholder="Nama Anda*">
+                            </div>
+                            <div class="form-nama d-flex flex-column gap-2">
+                                <label for="">Nomer Kontak Anda:</label>
+                                <input class="p-2" type="number" placeholder="Nomer Kontak Anda*">
+                            </div>
+                        </div>
+                        <div class="form-group d-flex flex-column gap-2">
+                            <div class="form-nama d-flex flex-column gap-2">
+                                <label for="">Email Anda:</label>
+                                <input class="p-2" type="text" placeholder="Email Anda*">
+                            </div>
+                            <div class="form-nama d-flex flex-column gap-2">
+                                <label for="">Kesan:</label>
+                                <input class="p-2" type="text" placeholder="Kesan Anda*">
+                            </div>
+                            <div class="form-nama d-flex flex-column gap-2">
+                                <label for="">Pesan:</label>
+                                <input class="p-2" type="text" placeholder="Pesan Anda*">
+                            </div>
+                        </div>
+                        <button class="mt-2">Kirim</button>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <div class="overlay"></div>
+    <div class="card-pop">
+        <h2>Thanks For Order..</h2>
+        <p>ditunggu orderan selanjutnya yaa!</p>
+        <button class="btn-card-pop" onclick="closePopup()">Kembali</button>
+    </div>
+
     <footer>
-        <p>&copy; 2025 Idea Resto Banyuwangi. All Rights Reserved.</p>
+        <p>© 2025 IdeaSAA Cafe Banyuwangi. All Rights Reserved.</p>
     </footer>
+
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 </html>

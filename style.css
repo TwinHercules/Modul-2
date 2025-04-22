@@ -4,130 +4,7 @@ body {
     background-color: cornsilk;
 }
 
-nav {
-    background-color: rgba(240, 101, 8, 0.8);
-    display: flex;
-    justify-content: space-between;
-    padding: 0 5rem;
-    position: sticky;
-    top: 0;
-}
-
-.judul h1 {
-    font-size: 1.5rem;
-    font-family: "Poppins", sans-serif;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-    align-items: center;
-    gap: 2rem;
-}
-
-nav ul li a {
-    text-decoration: none;
-    font-family:'Segoe UI', sans-serif;
-    color: rgb(34, 29, 29);
-    font-weight: 600;
-    padding: 0.5rem 0;
-    transition: all;
-    transition-duration: 300ms;
-    border-bottom: 1px solid rgba(214, 163, 163, 0);
-}
-
-nav ul li a:hover {
-    border-bottom: 1px solid white;
-    color: #FFF8F8;
-}
-
-.profil {
-    background-color: #FFECDB;
-    font-family:  "Poppins", sans-serif;
-    height: 100vh;
-}
-
-.judul-profil {
-    margin: 0rem 5rem;
-    display: flex;
-    gap: 5rem;
-}
-
-.judul-profil h1{
-    width: 380px;
-    margin: 0;
-    font-size: 40px;
-    padding: 6rem 0;
-}
-
-.desk {
-    padding: 5rem 0;
-}
-
-.desk h2 {
-    margin: 0;
-    border-bottom: 1px solid black;
-    padding: 1rem 0;
-}
-
-.desk p{
-    text-align: justify;
-}
-
-.quotes {
-    margin: -4rem 5rem 0 5rem;
-    text-align: center;
-    color: #BE3D2A;
-}
-
-.menu {
-    background-color: #FFF5E4;
-    font-family:  "Poppins", sans-serif;
-    height: 100vh;
-}
-
-.judul-menu {
-    margin: 0rem 5rem;
-}
-
-.container {
-    margin: 0rem 5rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 2rem;
-}
-
-.card {
-    display: flex;
-    background-color: #ebebeb ;
-    width: 370px;
-    height: 220px;
-    border-radius: 5px;
-    align-items: center;
-    gap: 2rem;
-}
-
-.card img {
-    width: 100px;
-    height: 100px;
-    padding: 1.5rem;
-}
-
-.desk-menu h3{
-    font-size: 15px;
-    margin: 1rem 0 1rem 0;
-}
-
-.desk-menu p {
-    font-size: 12px;
-}
-
-.desk-menu .harga {
-    font-style: italic;
-}
-
-.desk-menu a {
+.card-body a {
     text-decoration: none;
     color: black;
     background-color: #6A9C89;
@@ -136,339 +13,77 @@ nav ul li a:hover {
     text-align: center;
 }
 
-.desk-menu a:hover{
+.card-body a:hover{
     background-color:aqua;
     color: black;
 }
 
-.kontak{
-    margin: 0rem 5rem;
-    text-align: center;
-    font-family:  "Poppins", sans-serif;
-}
-
-.kontak h3 {
-    padding: 10px;
-    margin: 0;
-    font-size: 20px;
-}
-
-.kontak h1 {
-    margin: 0;
-    color: white;
-}
-
-.contact {
-    background-color: #E78B48;
-    height: 100vh;
-}
-
-.container-contact {
-    margin: 0rem 5rem;
-    display: flex;
-    font-family:  "Poppins", sans-serif;
-    gap: 2rem;
-    justify-content: center;
-}
-
-.card-maps {
-    background-color: #FFA955;
-    margin-top: 2rem;
-    padding: 1rem;
-    width: 45%;
-    border-bottom: 1px solid black;
-    border-top: 2px solid white;
-}
-
-.icon {
-    display: flex;
-    margin: 0;
-    align-items: center;
-    gap: 1rem;
-}
-
-.icon i {
-    font-size: 20px;
-}
-
-.desk-maps {
-    display: flex;
-    flex-direction: column;
-    margin: 1rem 0;
-}
-
-.desk-maps h3{
-    margin: 0;
-    font-size: 14px;
-}
-
-.desk-maps p {
-    font-size: 14px;
-    margin: 0;
-}
-
 iframe {
+    border-radius: 20px;
     width: 100%;
-    height: 200px;
-    border: 1px solid white;
-    border-radius: 10px;
+    height: 300px;
 }
 
-.card-contact {
-    background-color: #FFA955;
-    margin-top: 2rem;
-    padding: 1rem;
-    width: 45%;
-    border-bottom: 1px solid black;
-    border-top: 2px solid white;
+button {
+    padding: 5px;
+    margin: 10px 0 10px 0;
+    width: 100%;
+    background-color: #FF5733;
 }
 
-.bagian-atas {
-    display: flex;
-}
-
-.section-input input {
-    padding: 10px;
-    width: 85%;
-    border-radius: 2px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.bagian-bawah {
-    display: flex;
-    flex-direction:column;
-}
-
-.bagian-bawah label {
-    margin: 1rem 0;
-}
-
-.bagian-bawah input {
-    padding: 10px;
-    border-radius: 2px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.bagian-bawah button {
-    margin: 1rem 0;
-    padding: 10px;
-    background-color: #BE3D2A;
-}
-
-.bagian-bawah button:hover{
-    background-color: #FF9149;
-    color: white;
+button:hover {
+    background-color: #81E7AF;
 }
 
 footer {
+    display: flex;
+    background-color: #FF5733;
+    text-align: center;
+    justify-content: center;
+    color: white;
     padding: 0.5rem;
-    text-align: center;
-    color: white;
-    background-color: #FF9149;
 }
 
-#popupModal {
-    display: none;
-    position: fixed;
-    z-index: 1000;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background-color: rgba(0,0,0,0.5);
+/* Gaya untuk overlay */
+.overlay {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 999; 
+    display: none; 
 }
 
-.modal-content {
-    background: white;
-    margin: 20% auto;
+/* Gaya untuk pop-up */
+.card-pop {
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white; 
     padding: 20px;
-    width: 300px;
-    text-align: center;
-    border-radius: 10px;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    z-index: 1000; 
+    display: none; 
+    text-align: center; 
+    width: 300px; 
 }
 
-.modal-content button {
-    padding: 8px 16px;
-    margin-top: 15px;
-    background-color: #28a745;
+/* Tombol hover efek */
+.btn-card-pop {
+    background-color: #FF5733; /* Warna tombol */
     color: white;
+    padding: 10px 15px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 15px;
 }
 
-@media only screen and (max-width: 1024px) {
-    .menu {
-        height: auto;
-    }
-
-    .contact {
-        margin-top: 2rem;
-        height: auto;
-    }
-
+.btn-card-pop:hover {
+    background-color: #C70039; /* Warna saat tombol di hover */
 }
-
-@media only screen and (max-width: 768px) {
-    nav {
-        padding: 0 2rem;
-    }
-
-    .judul-profil {
-        flex-direction: column;
-        gap: 0;
-    }
-
-    .judul-profil h1 {
-        width: auto;
-        font-size: 30px;
-        padding: 2rem 0;
-    }
-
-    .desk {
-        padding: 1rem 0;
-    }
-
-    .quotes {
-        margin-top: 1rem;
-    }
-
-    .container {
-        justify-content: center;
-    }
-
-    .menu {
-        margin-top: 15rem;
-        height: auto;
-    }
-
-    .card {
-        width: 250px;
-        height: auto;
-        flex-direction: column;
-        text-align: center;
-        padding: 1rem;
-        gap: 0;
-    }
-    
-    .kontak h1 {
-        font-size: 20px;
-        margin: 0;
-        color: white;
-    }
-    
-    .contact {
-        height: auto;
-    }
-
-    .container-contact {
-        margin: 0rem 2rem;
-        padding-bottom: 1rem;
-    }
-
-    .icon i {
-        font-size: 15px;
-    }
-
-    .desk-maps h3{
-        font-size: 12px;
-    }
-
-    .desk-maps p {
-        font-size: 12px;
-    }
-
-    iframe {
-        width: 100%;
-        height: 200px;
-        border: 1px solid white;
-        border-radius: 10px;
-    }
-    .section-input label {
-        font-size: 12px;
-    }
-
-    .section-input input {
-        padding: 5px;
-        width: 75%;
-    }
-
-    .bagian-bawah label {
-        font-size: 12px;
-        margin: 0.5rem 0;
-    }
-
-    .bagian-bawah button {
-        margin: 1rem 0;
-        padding: 10px;
-        background-color: #BE3D2A;
-    }
-
-    .bagian-bawah button:hover{
-        background-color: #FF9149;
-        color: white;
-    }
-
-}
-
-@media only screen and (max-width: 450px) {
-    nav {
-        text-align: center;
-        flex-direction: column;
-        justify-content: center;
-    } 
-
-    .judul h1 {
-        margin: 0.5rem;
-    }
-
-    nav ul {
-        justify-content: center;
-        padding: 0;
-        margin: 0.5rem 1rem;
-    }
-    
-    .profil .judul-profil {
-        margin: 0 1.5rem;
-    }
-    
-    .menu {
-        margin: 26rem 1.5rem -25rem;
-    }
-
-    .judul-menu {
-        margin: 0.5rem;
-    }
-
-    .container {
-        margin: 0.5rem;
-        flex-direction: column;
-    }
-
-    .card {
-        width: auto;
-    }
-
-    .contact {
-        margin-top: 28rem;
-    }
-
-    .container-contact {
-        flex-direction: column;
-        gap: 0;
-    }
-
-    .card-maps {
-        width: auto;
-    }
-
-    .card-contact {
-        width: auto;
-        margin-bottom: 1rem;
-    }
-    
-    .bagian-atas {
-        flex-direction: column;
-    }
-
-    .bagian-atas .section-input input {
-        width: 93%;
-    }
-} 
