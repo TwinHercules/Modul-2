@@ -1,7 +1,15 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-color: cornsilk;
+nav {
+    position: sticky;
+    top: 0;
+}
+
+.navbar-nav a {
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+
+.navbar-nav a:hover{
+    color: white;
+    border-bottom: 1px solid white;
 }
 
 .card-body a {
@@ -44,7 +52,6 @@ footer {
     padding: 0.5rem;
 }
 
-/* Gaya untuk overlay */
 .overlay {
     position: fixed; 
     top: 0;
@@ -56,7 +63,6 @@ footer {
     display: none; 
 }
 
-/* Gaya untuk pop-up */
 .card-pop {
     position: fixed; 
     top: 50%;
@@ -72,9 +78,8 @@ footer {
     width: 300px; 
 }
 
-/* Tombol hover efek */
 .btn-card-pop {
-    background-color: #FF5733; /* Warna tombol */
+    background-color: #FF5733; 
     color: white;
     padding: 10px 15px;
     border: none;
@@ -85,5 +90,5 @@ footer {
 }
 
 .btn-card-pop:hover {
-    background-color: #C70039; /* Warna saat tombol di hover */
+    background-color: #C70039; 
 }
